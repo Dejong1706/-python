@@ -20,7 +20,7 @@ print(num)
 import sys
 A, B, C = map(int, sys.stdin.readline().split())
 if B < C:
-    sonic = A//(C-B) + 1
-    print(sonic)
+    num = A//(C-B) + 1
+    print(num)
 else :
     print(-1)
